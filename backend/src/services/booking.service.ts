@@ -1,5 +1,5 @@
 import { db } from '../config/database';
-import { Booking } from '../../prisma/node_modules/@prisma/client/default';
+import { Booking } from '@prisma/client';
 
 export class BookingService {
   async getBookings(userId: string, type: 'upcoming' | 'past'): Promise<Booking[]> {

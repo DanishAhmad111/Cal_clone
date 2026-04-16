@@ -1,4 +1,4 @@
-import { Router } from '../../prisma/node_modules/@types/express';
+import { Router } from 'express';
 import eventTypeRoutes from './eventType.routes';
 import availabilityRoutes from './availability.routes';
 import bookingRoutes from './booking.routes';

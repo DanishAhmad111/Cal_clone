@@ -1,4 +1,4 @@
-import dotenv from '../../prisma/node_modules/dotenv/lib/main';
+import dotenv from 'dotenv';
 import path from 'path';
 
 dotenv.config({ path: path.join(__dirname, '../../.env') });

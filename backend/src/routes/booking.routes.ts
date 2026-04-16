@@ -1,4 +1,4 @@
-import { Router } from '../../prisma/node_modules/@types/express';
+import { Router } from 'express';
 import { getBookings, createBooking, cancelBooking } from '../controllers/booking.controller';
 
 const router = Router();

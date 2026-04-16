@@ -1,4 +1,4 @@
-import { Router } from '../../prisma/node_modules/@types/express';
+import { Router } from 'express';
 import { getEventTypes, createEventType, getEventTypeBySlug, updateEventType, deleteEventType } from '../controllers/eventType.controller';
 
 const router = Router();

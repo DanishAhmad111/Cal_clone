@@ -1,4 +1,4 @@
-import { Router } from '../../prisma/node_modules/@types/express';
+import { Router } from 'express';
 import { getAvailability, updateAvailability } from '../controllers/availability.controller';
 
 const router = Router();

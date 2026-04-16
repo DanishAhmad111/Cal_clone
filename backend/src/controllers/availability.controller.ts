@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from '../../prisma/node_modules/@types/express';
+import { Request, Response, NextFunction } from 'express';
 import { AvailabilityService } from '../services/availability.service';
 import { sendSuccess } from '../utils/responseUtils';
 

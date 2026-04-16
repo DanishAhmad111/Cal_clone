@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from '../../prisma/node_modules/@types/express';
+import { Request, Response, NextFunction } from 'express';
 
 export const errorHandler = (err: any, req: Request, res: Response, next: NextFunction) => {
   console.error('[ERROR_HANDLER]', err);

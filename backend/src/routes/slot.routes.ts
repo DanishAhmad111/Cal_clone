@@ -1,4 +1,4 @@
-import { Router } from '../../prisma/node_modules/@types/express';
+import { Router } from 'express';
 import { getSlots } from '../controllers/slot.controller';
 
 const router = Router();

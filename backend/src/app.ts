@@ -1,5 +1,5 @@
-import express, { Application } from '../prisma/node_modules/@types/express';
-import cors from '../prisma/node_modules/@types/cors';
+import express, { Application } from 'express';
+import cors from 'cors';
 import { env } from './config/env';
 import { errorHandler } from './middleware/errorHandler';
 import routes from './routes';

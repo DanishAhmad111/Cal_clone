@@ -1,5 +1,5 @@
 import { db } from '../config/database';
-import { Availability } from '../../prisma/node_modules/@prisma/client/default';
+import { Availability } from '@prisma/client';
 
 export class AvailabilityService {
   async getAvailability(userId: string): Promise<Availability[]> {

@@ -1,5 +1,5 @@
 import { db } from '../config/database';
-import { EventType } from '../../prisma/node_modules/@prisma/client/default';
+import { EventType } from '@prisma/client';
 
 export class EventTypeService {
   async getEventTypesForUser(userId: string): Promise<EventType[]> {
