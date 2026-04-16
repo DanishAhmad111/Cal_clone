@@ -45,7 +45,7 @@ export class SlotService {
       const slotEnd = new Date(currentMs + durationMs);
 
       if (currentMs > nowMs) {
-        const isBooked = existingBookings.some((b) => {
+        const isBooked = existingBookings.some((b: { startTime: Date; endTime: Date }) => {
           const bStart = b.startTime.getTime();
           const bEnd = b.endTime.getTime();
           return currentMs < bEnd && (currentMs + durationMs) > bStart;
